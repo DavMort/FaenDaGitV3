@@ -1,5 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        Book bok1 = new Book("DJ Khaled", 999);
+        System.out.println(bok1.name);
     }
 }
